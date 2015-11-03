@@ -27,9 +27,9 @@
 }
 .content:before {
   background: #ccc;
+  display:block;
   position: absolute;
   content: "";
-  display:block;
   width: 1px;
   left: 240px;
   top: 0px;

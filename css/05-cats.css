@@ -1,0 +1,29 @@
+.content-header {
+  height: 200px;
+  background-image: url("../img/cats.jpg");
+  background-size: cover;
+  position: relative;
+  }
+
+.content-header-title {
+  color: white;
+  text-shadow: #000 1px 0px 10px;
+  font-size: 36px;
+  font-weight: 300;
+  position: absolute;
+  bottom: 20px;
+  left: 240px;
+  line-height: 1;
+}
+
+.content-header button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  background: white;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
