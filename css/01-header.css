@@ -1,0 +1,42 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  background: #eee;
+}
+
+.header {
+  position: relative;
+  background: red;
+  color: white;
+  border-bottom: 1px solid #ccc;
+  z-index: 1;
+}
+
+.header-nav {
+  width: 900px;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+
+}
+
+.header-nav a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.header-nav-logo {
+  float: left;
+  font-weight: 700;
+  border-right: 1px solid #ccc;
+}
+
+.header-nav-links {
+  float: right;
+}
+
+.header-nav-links > li {
+  float: left;
+  border-left: 1px solid #ccc;
+}

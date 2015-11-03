@@ -1,0 +1,33 @@
+html, body, h1, section, article, ul, a, img, nav, footer, header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font: inherit;
+  text-align: inherit;
+  color: inherit;
+  text-decoration: inherit;
+  background: transparent;
+  list-style: none;
+  box-sizing: inherit;
+}
+
+form input[type=text] {
+  appearance: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
