@@ -1,0 +1,37 @@
+.content {
+  min-height: 200px;
+  background: white;
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content-main {
+  min-height: 200px;
+  float: left;
+  /*background: pink;*/
+  width: 619px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.content-sidebar {
+  min-height: 200px;
+  float: left;
+  /*background: lightblue;*/
+  width: 199px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+.content:before {
+  background: #ccc;
+  position: absolute;
+  content: "";
+  display:block;
+  width: 1px;
+  left: 240px;
+  top: 0px;
+  bottom: 0px;
+}
