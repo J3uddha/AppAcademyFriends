@@ -1,0 +1,20 @@
+ .online {
+  float:left;
+  display: block;
+  position: absolute;
+  background: #0c0;
+  color: white;
+  letter-spacing: 0.2em;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 30px;
+  transform: rotate(-45deg);
+  top: 5px;
+  left: -25px;
+  box-shadow: 1px 1px #000;
+
+}
+
+.profile-picture {
+  overflow: hidden;
+}

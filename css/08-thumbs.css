@@ -1,0 +1,29 @@
+.thumb-container {
+  position: relative;
+  width: 245px;
+}
+
+.thumb:nth-child(3n) {
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.thumb:nth-child(3n+2) {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.thumb:nth-child(3n+1) {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.thumb {
+  float: left;
+  width: 58px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

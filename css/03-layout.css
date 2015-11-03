@@ -4,6 +4,7 @@
   width: 900px;
   margin: 0 auto;
   position: relative;
+  border-right: 1px solid #ccc;
 }
 
 .content-main {
@@ -11,7 +12,7 @@
   float: left;
   width: 619px;
   padding: 20px;
-  border-right: 1px solid #ccc;
+
 }
 
 .content-sidebar {

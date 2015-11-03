@@ -1,4 +1,4 @@
-.header-nav-links > a:hover, .dropdown:hover {
+.header-nav-links > li:hover, .dropdown:hover {
   background: black;
 }
 
